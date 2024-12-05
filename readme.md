@@ -7,7 +7,7 @@ This project provides a FastAPI-based web service for performing real-time objec
 1. **Clone the Repository** (if you haven't already)
 
     ```bash
-    git clone https://github.com/your-username/object-detection-api.git
+    git clone https://github.com/harshagarwal13/object-detection-api.git
     cd object-detection-api
     ```
 
