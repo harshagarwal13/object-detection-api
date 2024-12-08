@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  ai-backend:
+    build:
+      context: .
+      dockerfile: AI_Backend_Dockerfile
+    ports:
+      - "8005:8005"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend_Dockerfile
+    container_name: frontend
+    ports:
+      - "8501:8501"
+    depends_on:
+      - ai-backend
