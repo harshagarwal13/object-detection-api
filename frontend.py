@@ -6,7 +6,7 @@ from PIL import Image
 BACKEND_URL = "http://ai-backend:8005/detect/"
 
 st.title("Object Detection App")
-st.write("Upload an image to detect objects using Faster R-CNN")
+st.write("Upload an image to detect objects using Yolo")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
